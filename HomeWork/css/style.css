@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+}
+.content-wrap {
+    padding: 60px 0;
+}
+.row {
+    display: block;
+    width: 100%;
+}
+.container {
+    width: 1240px;
+    margin: 0 auto;
+}
+.content-wrap .box {
+    width: 410px;
+    padding-left: 5px;
+    margin: 5px 0 0 0;
+    padding: 10px 0;
+}
+.font {
+    display: inline-block;
+    margin-right: 5px;
+    vertical-align: top;
+}
+.content-wrap i {
+    color: #1abc9c;
+    font-size: 17px;
+    cursor: pointer;
+}
+.col {
+    display: inline-block;
+}
+.text {
+    margin-left: 5px;
+    display: inline-block;
+    width: 80%;
+}
+
+.content-wrap h3 {
+    color: #333;
+    font-size: 13px;
+    font-weight: 600;
+}
+.content-wrap p {
+    color: #999;
+    font-size: 12px;
+    line-height: 21px;
+
+    display: inline-block;
+}
+/* Phonesection */
+.phonetext {
+    margin-right: 5px;
+    display: inline-block;
+    width: 80%;
+    text-align: right;
+}
+.veritical-align {
+    vertical-align: top;
+}
+.phone i {
+    background-color: #1abc9c;
+    color: white;
+    border-radius: 100%;
+    padding: 10px;
+    font-size: 19px;
+    cursor: pointer;
+}
+.phone .phonebox {
+    width: 410;
+}
+.phone h3 {
+    color: #333;
+    font-size: 15px;
+    font-weight: 600;
+}
+.phone p {
+    color: #999;
+    font-size: 12px;
+    line-height: 22px;
+
+    display: inline-block;
+    width: 75%;
+}
+.phone .phonebox {
+    width: 410px;
+    padding-right: 5px;
+    margin: 5px 0 0 0;
+    padding: 10px 0;
+}
+.phonefont {
+    display: inline-block;
+    margin-right: 5px;
+    vertical-align: top;
+}
+.phoneimg {
+    margin: 0 10px 0 10px;
+}
+.phoneimg img {
+    width: 165px !important;
+}
+
+/* ============================= */
+
+.rightphonetext {
+    margin-left: 5px;
+    display: inline-block;
+    width: 80%;
+    text-align: left;
+}
+.veritical-align {
+    vertical-align: top;
+}
+.rightphone i {
+    background-color: #1abc9c;
+    color: white;
+    border-radius: 100%;
+    padding: 10px;
+    font-size: 19px;
+    cursor: pointer;
+}
+.rightphone .rightphonebox {
+    width: 410;
+}
+.phone {
+    position: relative;
+    padding: 60px 0;
+}
+.phone h3 {
+    color: #333;
+    font-size: 15px;
+    font-weight: 600;
+    position: relative;
+}
+.phone::after {
+    content: " ";
+    position: absolute;
+    width: 45px;
+    height: 1px;
+    background-color: #777;
+    left: 617px;
+    top: 189px;
+}
+
+.rightphone p {
+    color: #999;
+    font-size: 12px;
+    line-height: 22px;
+
+    display: inline-block;
+    width: 75%;
+}
+.rightphonebox {
+    width: 410px;
+    padding-left: 5px;
+    margin: 5px 0 0 0;
+    padding: 10px 0;
+}
+.rightphonefont {
+    display: inline-block;
+    margin-left: 5px;
+    vertical-align: top;
+}
+.rightphoneimg img {
+    width: 165px !important;
+}
+.phone h2 {
+    font-size: 30px;
+    text-align: center;
+    margin-left: 166px;
+}
+.phone .p {
+    font-size: 13px;
+    font-weight: 300;
+    text-align: center;
+    width: 800px;
+    margin: 20px 0 19px 195px;
+    color: #777;
+}
